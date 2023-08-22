@@ -48,22 +48,7 @@ body {
     color: inherit;
     /* 2 */
   }
-  
-  /*
-  Text-level semantics
-  ====================
-  */
-  
-  /**
-  Add the correct text decoration in Chrome, Edge, and Safari.
-  */
-  
-  abbr[title] {
-    -webkit-text-decoration: underline dotted;
-            text-decoration: underline dotted;
-  }
-  
-  
+    
   
   b,
   strong {
@@ -110,15 +95,7 @@ body {
   sup {
     top: -0.5em;
   }
-    /*
-Tabular data
-============
-*/
-
-/**
-1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
-2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
-*/
+  
 
 table {
     text-indent: 0;
@@ -144,10 +121,7 @@ table {
     /* 2 */
   }
   
-  /**
-  Remove the inheritance of text transform in Edge and Firefox.
-  1. Remove the inheritance of text transform in Firefox.
-  */
+ 
   
   button,
   select {
@@ -155,19 +129,8 @@ table {
     text-transform: none;
   }
   
-  /**
-  Correct the inability to style clickable types in iOS and Safari.
-  */
   
-  button,
-  [type='button'] {
-    -webkit-appearance: button;
-  }
   
-  summary {
-    display: list-item;
-  }
-
   
   blockquote,
   dl,
@@ -184,15 +147,8 @@ table {
   pre {
     margin: 0;
   }
-  button {
-    background-color: transparent;
-    background-image: none;
-  }
   
-  fieldset {
-    margin: 0;
-    padding: 0;
-  }
+  
   
   ol,
   ul {
@@ -231,9 +187,7 @@ table {
     /* 2 */
   }
   
-  /*
-   * Ensure horizontal rules are visible by default
-   */
+  
   
   hr {
     border-top-width: 1px;
@@ -249,12 +203,6 @@ table {
     resize: vertical;
   }
   
-  
-
-
-
-
-
 
 [hidden] {
   display: none;
