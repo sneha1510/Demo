@@ -398,22 +398,7 @@ samp {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-/**
- * 1. Make replaced elements `display: block` by default as that's
- *    the behavior you want almost all of the time. Inspired by
- *    CSS Remedy, with `svg` added as well.
- *
- *    https://github.com/mozdevs/cssremedy/issues/14
- * 
- * 2. Add `vertical-align: middle` to align replaced elements more
- *    sensibly by default when overriding `display` by adding a
- *    utility like `inline`.
- *
- *    This can trigger a poorly considered linting error in some
- *    tools but is included by design.
- * 
- *    https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210
- */
+
 
 img,
 svg,
@@ -429,12 +414,7 @@ object {
   /* 2 */
 }
 
-/**
- * Constrain images and videos to the parent width and preserve
- * their intrinsic aspect ratio.
- *
- * https://github.com/mozdevs/cssremedy/issues/14
- */
+
 
 img,
 video {
@@ -944,68 +924,3 @@ video {
   }
 }
 
-@media (min-width: 1024px){
-  .course-container{
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-}
-
-@media (min-width: 640px){
-  .sm\:absolute{
-    position: absolute;
-  }
-
-  .sm\:right-0{
-    right: 0px;
-  }
-
-  .sm\:z-10{
-    z-index: 10;
-  }
-
-  .sm\:w-2\/5{
-    width: 40%;
-  }
-
-  .sm\:w-full{
-    width: 100%;
-  }
-}
-
-@media (min-width: 768px){
-  .md\:w-4\/5{
-    width: 80%;
-  }
-
-  .md\:w-3\/12{
-    width: 25%;
-  }
-
-  .md\:p-6{
-    padding: 1.5rem;
-  }
-}
-
-@media (min-width: 1024px){
-  .lg\:flex{
-    display: flex;
-  }
-
-  .lg\:hidden{
-    display: none;
-  }
-
-  .lg\:w-2\/3{
-    width: 66.666667%;
-  }
-
-  .lg\:w-1\/6{
-    width: 16.666667%;
-  }
-}
-
-@media (min-width: 1280px){
-}
-
-@media (min-width: 1536px){
-}
